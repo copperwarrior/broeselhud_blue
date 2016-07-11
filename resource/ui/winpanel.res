@@ -12,10 +12,31 @@
 		
 		"BlueScoreBG"
 		{
-			"ControlName"			"ScalableImagePanel"
+			"ControlName"			"EditablePanel"
 			"fieldName"				"BlueScoreBG"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
+		
+		"RedScoreBG"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"RedScoreBG"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
+		
+		"BlueScoreBG2"
+		{
+			"ControlName"			"ScalableImagePanel"
+			"fieldName"				"BlueScoreBG2"
 			"xpos"					"105"
 			"ypos"					"27"
+			"zpos"					"2"
 			"wide"					"85"
 			"tall"					"18"
 			"autoResize"			"0"
@@ -26,15 +47,16 @@
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"3"
-			"draw_corner_height"	"3"	
+			"draw_corner_height"	"3"
 		}
 		
-		"RedScoreBG"
+		"RedScoreBG2"
 		{
 			"ControlName"			"ScalableImagePanel"
-			"fieldName"				"RedScoreBG"
+			"fieldName"				"RedScoreBG2"
 			"xpos"					"190"
 			"ypos"					"27"
+			"zpos"					"2"
 			"wide"					"84"
 			"tall"					"18"
 			"autoResize"			"0"
@@ -58,6 +80,7 @@
 			"textAlignment"			"west"
 			"xpos"					"110"
 			"ypos"					"26"
+			"zpos"					"3"
 			"wide"					"43"
 			"tall"					"20"
 			"autoResize"			"0"
@@ -76,6 +99,7 @@
 			"textAlignment"			"east"
 			"xpos"					"102"
 			"ypos"					"0"
+			"zpos"					"5"
 			"zpos"					"3"
 			"wide"					"80"
 			"tall"					"49"
@@ -95,7 +119,7 @@
 			"textAlignment"			"east"
 			"xpos"					"103"
 			"ypos"					"1"
-			"zpos"					"3"
+			"zpos"					"4"
 			"wide"					"80"
 			"tall"					"49"
 			"autoResize"			"0"
@@ -103,6 +127,26 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
+		
+		"BlueLeaderAvatar"
+		{
+			"ControlName"			"CAvatarImagePanel"
+			"fieldName"				"BlueLeaderAvatar"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
+		
+		"BlueLeaderAvatarBG"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"BlueLeaderAvatarBG"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}	
 		
 		"RedTeamLabel"
 		{
@@ -114,6 +158,7 @@
 			"textAlignment"			"east"
 			"xpos"					"227"
 			"ypos"					"26"
+			"zpos"					"3"
 			"wide"					"43"
 			"tall"					"20"
 			"autoResize"			"0"
@@ -132,7 +177,7 @@
 			"textAlignment"			"west"
 			"xpos"					"197"
 			"ypos"					"0"
-			"zpos"					"3"
+			"zpos"					"5"
 			"wide"					"80"
 			"tall"					"49"
 			"autoResize"			"0"
@@ -151,7 +196,7 @@
 			"textAlignment"			"west"
 			"xpos"					"198"
 			"ypos"					"1"
-			"zpos"					"3"
+			"zpos"					"4"
 			"wide"					"80"
 			"tall"					"49"
 			"autoResize"			"0"
@@ -159,12 +204,32 @@
 			"visible"				"1"
 			"enabled"				"1"
 		}
+		
+		"RedLeaderAvatar"
+		{
+			"ControlName"			"CAvatarImagePanel"
+			"fieldName"				"RedLeaderAvatar"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
+		
+		"RedLeaderAvatarBG"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"RedLeaderAvatarBG"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
 	}
 	
-	"WinPanelBG"
+	"WinPanelBGBorder"
 	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"WinPanelBG"
+		"ControlName"				"EditablePanel"
+		"fieldName"					"WinPanelBGBorder"
 		"wide"						"0"
 		"tall"						"0"
 		"visible"					"0"
@@ -283,6 +348,16 @@
 		"enabled"					"0"
 	}
 	
+	"Player1Badge"
+	{
+		"ControlName"				"CTFBadgePanel"
+		"fieldName"					"Player1Badge"
+		"wide"						"0"
+		"tall"						"0"
+		"visible"					"0"
+		"enabled"					"0"
+	}
+	
 	"Player1Avatar"
 	{
 		"ControlName"				"CAvatarImagePanel"
@@ -349,6 +424,16 @@
 		"textAlignment"				"east"
 		"dulltext"					"0"
 		"brighttext"				"0"
+	}
+	
+	"Player2Badge"
+	{
+		"ControlName"				"CTFBadgePanel"
+		"fieldName"					"Player2Badge"
+		"wide"						"0"
+		"tall"						"0"
+		"visible"					"0"
+		"enabled"					"0"
 	}
 	
 	"Player2Avatar"
@@ -419,6 +504,16 @@
 		"textAlignment"				"east"
 		"dulltext"					"0"
 		"brighttext"				"0"
+	}
+	
+	"Player3Badge"
+	{
+		"ControlName"				"CTFBadgePanel"
+		"fieldName"					"Player3Badge"
+		"wide"						"0"
+		"tall"						"0"
+		"visible"					"0"
+		"enabled"					"0"
 	}
 	
 	"Player3Avatar"
@@ -526,6 +621,16 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"HorizontalLine2"
+		"wide"						"0"
+		"tall"						"0"
+		"visible"					"0"
+		"enabled"					"0"
+	}
+	
+	"KillStreakPlayer1Badge"
+	{
+		"ControlName"				"CTFBadgePanel"
+		"fieldName"					"KillStreakPlayer1Badge"
 		"wide"						"0"
 		"tall"						"0"
 		"visible"					"0"

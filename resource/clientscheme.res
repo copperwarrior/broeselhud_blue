@@ -1,75 +1,11 @@
-Scheme{Colors{
+#base "../resource/colors.res"
 
-///////////////////////////////////////////////////////////
-////////// BEGIN OF COLOR CUSTOMIZATION SECTION ///////////
-///////////////////////////////////////////////////////////
-
-
-	"HP"					"255 255 255 255"
-	"low HP"				"255 255 255 255"
-	"buffed HP"				"255 255 255 255"
-	"buff shadow"			"0 0 0 255" // "50 205 50 255" to enable the green buff shadow
-	
-	"TargetID low HP"		"255 165 0 255"
-	"TargetID buffed HP"	"50 205 50 255"
-	"TargetID info"			"255 255 0 255"
-
-	"Ammo in Clip"			"255 255 255 255"
-	"Ammo in Reserve"		"168 168 168 255"
-	
-	"Damage Numbers"		"255 255 255 255"
-	"Heal Numbers"			"50 205 50 255"
-	"Last Damage done"		"255 255 0 255"
-	
-	"Ubercharge Bar"		"255 255 255 255"
-	"Ubercharge Full 1"		"61 202 53 255"
-	"Ubercharge Full 2"		"19 165 12 255"
-	
-	"Ubercharge Label"		"255 255 255 255"
-	"Ubercharge Label Full"	"255 255 255 255"
-	
-	"Low-Ammo Clip"			"255 255 255 255"
-	"Low-Ammo Reserve"		"168 168 168 255"
-	"Low-Ammo Shadow"		"255 0 0 255" // "0 0 0 255" to remove the red ammo warning shadow
-
-
-///////////////////////////////////////////////////////////
-/////////// END OF COLOR CUSTOMIZATION SECTION ////////////
-///////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Scheme
+{
+	//////////////////////// COLORS ///////////////////////////
+	Colors
+	{
 		// base colors
-		"MainMenuWarning"	"0 0 0 0"
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
@@ -89,6 +25,7 @@ Scheme{Colors{
 		"Blue"				"0 28 162 140"
 		"Yellow"			"251 235 202 255"
 		"TransparentYellow"	"251 235 202 140"
+		"BrightYellow"		"251 235 0 255"
 		//"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
@@ -436,7 +373,7 @@ Scheme{Colors{
 		HudObjectives.FgColor		"HudPanelForeground"
 		HudObjectives.BgColor		"HudPanelBackground"
 		HudObjectives.BorderColor	"HudPanelBorder"
-				
+		
 		HudProgressBar.Active		"HudProgressBarActive"
 		HudProgressBar.InActive		"HudProgressBarInActive"
 		
@@ -493,6 +430,7 @@ Scheme{Colors{
 	{
 		// UI buttons, custom font, (256x64)
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
+		"ButtonsSC"		"materials/vgui/fonts/buttons_sc.vbf"
 	}
 
 
@@ -509,88 +447,88 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"8"
-				"additive"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"8"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface9
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"9"
-				"additive"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"9"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface10
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"10"
-				"additive"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"10"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface11
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"11"
-				"additive"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"11"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface12
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"12"
-				"additive"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"12"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface13
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"13"
-				"additive"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"13"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface14
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"14"
-				"additive"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"14"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface14shadow
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"14"
-				"additive"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"14"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 				"dropshadow"	"1"
 			}
 		}
@@ -598,22 +536,22 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"15"
-				"additive"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"15"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface15shadow
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"15"
-				"additive"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"15"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 				"dropshadow"	"1"
 			}
 		}
@@ -621,99 +559,99 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"16"
-				"additive"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"16"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface18
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"18"
-				"additive"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"18"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface18outline
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"18"
-				"additive"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"18"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"1"
+				"outline"		"1"
 			}
 		}
 		surface20
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"20"
-				"additive"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"20"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface20outline
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"20"
-				"additive"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"20"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"1"
+				"outline"		"1"
 			}
 		}
 		surface23
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"23"
-				"additive"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"23"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface23outline
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"23"
-				"additive"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"23"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"1"
+				"outline"		"1"
 			}
 		}
 		surface24
 		{
 			"1"
 			{
-				"name"		"SurfaceSharpened-Medium"
-				"tall"		"24"
-				"additive"	"0"
+				"name"			"SurfaceSharpened-Medium"
+				"tall"			"24"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface24shadow
 		{
 			"1"
 			{
-				"name"		"SurfaceSharpened-Medium"
-				"tall"		"24"
-				"additive"	"0"
+				"name"			"SurfaceSharpened-Medium"
+				"tall"			"24"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 				"dropshadow"	"1"
 			}
 		}
@@ -721,77 +659,77 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceSharpened-Medium"
-				"tall"		"26"
-				"additive"	"0"
+				"name"			"SurfaceSharpened-Medium"
+				"tall"			"26"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface28
 		{
 			"1"
 			{
-				"name"		"SurfaceSharpened-Medium"
-				"tall"		"28"
-				"additive"	"0"
+				"name"			"SurfaceSharpened-Medium"
+				"tall"			"28"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface32
 		{
 			"1"
 			{
-				"name"		"SurfaceSharpened-Medium"
-				"tall"		"32"
-				"additive"	"0"
+				"name"			"SurfaceSharpened-Medium"
+				"tall"			"32"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface36
 		{
 			"1"
 			{
-				"name"		"SurfaceSharpened-Medium"
-				"tall"		"36"
-				"additive"	"0"
+				"name"			"SurfaceSharpened-Medium"
+				"tall"			"36"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface48
 		{
 			"1"
 			{
-				"name"		"SurfaceSharpened-Medium"
-				"tall"		"48"
-				"additive"	"0"
+				"name"			"SurfaceSharpened-Medium"
+				"tall"			"48"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surface60
 		{
 			"1"
 			{
-				"name"		"SurfaceSharpened-Medium"
-				"tall"		"60"
-				"additive"	"0"
+				"name"			"SurfaceSharpened-Medium"
+				"tall"			"60"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surfaceUber
 		{
 			"1"
 			{
-				"name"		"SurfaceSharpened-Medium"
-				"tall"		"60"
-				"additive"	"0"
+				"name"			"SurfaceSharpened-Medium"
+				"tall"			"60"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 				"dropshadow"	"1"
 			}
 		}
@@ -799,956 +737,956 @@ Scheme{Colors{
 		{
 			"1"
 			{
-				"name"		"SurfaceNumbers-Medium"
-				"tall"		"14"
-				"additive"	"0"
+				"name"			"SurfaceNumbers-Medium"
+				"tall"			"14"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surfaceNumbers16
 		{
 			"1"
 			{
-				"name"		"SurfaceNumbers-Medium"
-				"tall"		"16"
-				"additive"	"0"
+				"name"			"SurfaceNumbers-Medium"
+				"tall"			"16"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surfaceNumbers18
 		{
 			"1"
 			{
-				"name"		"SurfaceNumbers-Medium"
-				"tall"		"18"
-				"additive"	"0"
+				"name"			"SurfaceNumbers-Medium"
+				"tall"			"18"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		surfaceNumbers28
 		{
 			"1"
 			{
-				"name"		"SurfaceNumbers-Medium"
-				"tall"		"28"
-				"additive"	"0"
+				"name"			"SurfaceNumbers-Medium"
+				"tall"			"28"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		ItemEffectMeterLabels
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"additive"	"0"
+				"name"			"Verdana"
+				"tall"			"8"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}	
 		Blank
 		{
 			"1"
 			{
-				"name"		"Blank"
-				"tall"		"8"
-				"additive"	"0"
+				"name"			"Blank"
+				"tall"			"8"
+				"additive"		"0"
 				"antialias" 	"1"
-				"outline"	"0"
+				"outline"		"0"
 			}
 		}
 		"Blocks"
 		{
 			"1"
 			{
-				"name"		"Blocks"
-				"tall"		"72"
-				"additive"	"0"
-				"antialias" "0"
+				"name"			"Blocks"
+				"tall"			"72"
+				"additive"		"0"
+				"antialias" 	"0"
 			}
 		}
 		"size: 10, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"10"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"10"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 11, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"11"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"11"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 12, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"12"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"12"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 13, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"13"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"13"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 14, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"14"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"14"
+				"antialias"		"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 15, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"15"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"15"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 16, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"16"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"16"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 17, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"17"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"17"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 18, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"18"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"18"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 19, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"19"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"19"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 20, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"20"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"20"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 21, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"21"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"21"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 22, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"22"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"22"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 23, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"23"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"23"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 24, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"24"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"24"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 25, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"25"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"25"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 26, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"26"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"26"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 27, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"26"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"27"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 28, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"28"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"28"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 29, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"29"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"29"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 30, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"30"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"30"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 31, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"31"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"31"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 32, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"32"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"32"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 33, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"33"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"33"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 34, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"34"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"34"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 35, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"35"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"35"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 36, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"36"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"36"
+				"antialias"		"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 37, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"37"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"37"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 38, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"38"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"38"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 39, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"39"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"39"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 40, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"40"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"40"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 41, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"41"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"41"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 42, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"42"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"42"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 43, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"43"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"43"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 44, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"44"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"44"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 45, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"45"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"45"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 46, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"46"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"46"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 47, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"47"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"47"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 48, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"48"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"48"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 49, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"49"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"49"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 50, outline: off"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"50"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"50"
+				"antialias" 	"1"
+				"additive"		"0"
+				"outline"		"0"
 			}
 		}
 		"size: 12, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"12"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"12"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 13, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"13"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"13"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 14, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"14"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"14"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 15, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"15"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"15"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 16, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"16"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"16"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 17, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"17"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"17"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 18, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"18"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"18"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 19, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"19"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"19"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 20, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"20"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"20"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 21, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"21"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"21"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 22, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"22"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"22"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 23, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"23"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"23"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 24, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"24"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"24"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 25, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"25"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"25"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 26, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"26"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"26"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 27, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"26"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"27"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 28, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"28"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"28"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 29, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"29"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"29"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 30, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"30"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"30"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 31, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"31"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"31"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 32, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"32"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"32"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 33, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"33"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"33"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 34, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"34"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"34"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 35, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"35"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"35"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 36, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"36"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"36"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 37, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"37"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"37"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 38, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"38"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"38"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 39, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"39"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"39"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 40, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"40"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"40"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 41, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"41"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"41"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 42, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"42"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"42"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 43, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"43"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"43"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 44, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"44"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"44"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 45, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"45"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"45"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 46, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"46"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"46"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 47, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"47"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"47"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 48, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"48"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"48"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 49, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"49"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"49"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"size: 50, outline: on"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"50"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"broeselhud Crosshairs"
+				"tall"			"50"
+				"antialias" 	"0"
+				"additive"		"0"
+				"outline"		"1"
 			}
 		}
 		"konr16"
@@ -1801,6 +1739,18 @@ Scheme{Colors{
 				"antialias"		"1"
 			}
 		}
+		"seeker9"
+		{
+			"1"
+			{
+				"name"			"tf2cross"
+				"tall"			"9"
+				"weight"		"0"
+				"antialias"		"1"
+				"additive"		"0"
+				"outline"		"0"
+			}
+		}
 		"seeker10"
 		{
 			"1"
@@ -1811,18 +1761,6 @@ Scheme{Colors{
 				"antialias"		"1"
 				"additive"		"0"
 				"outline"		"0"
-			}
-		}
-		"seeker10outline"
-		{
-			"1"
-			{
-				"name"			"tf2cross"
-				"tall"			"10"
-				"weight"		"0"
-				"antialias"		"1"
-				"additive"		"0"
-				"outline"		"1"
 			}
 		}
 		"seeker11"
@@ -1837,18 +1775,6 @@ Scheme{Colors{
 				"outline"		"0"
 			}
 		}
-		"seeker11outline"
-		{
-			"1"
-			{
-				"name"			"tf2cross"
-				"tall"			"11"
-				"weight"		"0"
-				"antialias"		"1"
-				"additive"		"0"
-				"outline"		"1"
-			}
-		}
 		"seeker12"
 		{
 			"1"
@@ -1861,34 +1787,22 @@ Scheme{Colors{
 				"outline"		"0"
 			}
 		}
-		"seeker12outline"
-		{
-			"1"
-			{
-				"name"			"tf2cross"
-				"tall"			"12"
-				"weight"		"0"
-				"antialias"		"1"
-				"additive"		"0"
-				"outline"		"1"
-			}
-		}
 		
 		"Default"
 		{
 			"1"
 			{
-				"name"		"Surface-Medium"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
+				"name"			"Surface-Medium"
+				"tall"			"10"
+				"additive"		"0"
+				"antialias"		"1"
+				"outline"		"0"
 			}
 			"2"
 			{
-				"name"		"Arial"
-				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
+				"name"			"Arial"
+				"tall"			"12"
+				"range"			"0x0000 0x00FF"
 				"weight"		"800"
 			}	
 		}
@@ -1963,8 +1877,6 @@ Scheme{Colors{
 				"weight"		"0"
 			}
 		}
-
-
 		"DefaultVerySmall"
 		{
 			"1"
@@ -2503,6 +2415,38 @@ Scheme{Colors{
 				"scaley"	"0.4"
 			}
 		}
+		GameUIButtonsSteamController
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"ButtonsSC"
+				"scalex"	"0.5"
+				"scalex_lodef"		"0.75"
+				"scaley"	"0.5"
+				"scaley_lodef"		"0.75"
+			}
+		}
+		GameUIButtonsSteamControllerSmall
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"ButtonsSC"
+				"scalex"	"0.25"
+				"scaley"	"0.25"
+			}
+		}
+		GameUIButtonsSteamControllerSmallest
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"ButtonsSC"
+				"scalex"	"0.15"
+				"scaley"	"0.15"
+			}
+		}
 		"GameUIButtonText"
 		{
 			"1"
@@ -2745,6 +2689,7 @@ Scheme{Colors{
 				"dropshadow"	"1"
 			}
 		}
+
 		// this is the symbol font
 		"Marlett"
 		{
@@ -2926,7 +2871,43 @@ Scheme{Colors{
 				"additive"	"0"
 			}
 		}
+		
+		"ScoreboardTeamCountNew"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"ScoreboardTeamNameNew"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 
+		"ScoreboardTeamScoreNew"
+ 		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"36"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ScoreboardTeamScore"
 		{
 			"1"
@@ -2975,7 +2956,6 @@ Scheme{Colors{
 				"antialias" "1"
 			}
 		}
-		
 		"MatchSummaryTeamScores"
 		{
 			"1"
@@ -2988,7 +2968,6 @@ Scheme{Colors{
 				"additive"	"0"
 			}
 		}
-		
 		"MatchSummaryStatsAndMedals"
 		{
 			"1"
@@ -3000,7 +2979,28 @@ Scheme{Colors{
 				"antialias"	"1"
 			}
 		}
-		
+		"MatchSummaryWinner"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"CompMatchStartTeamNames"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ControlPointTimer"
 		{
 			"1"
@@ -3627,6 +3627,7 @@ Scheme{Colors{
 				"antialias" 	"1"
 			}
 		}
+
 		"QuestFlavorText"
 		{
 			"1"
@@ -4086,7 +4087,7 @@ Scheme{Colors{
 				"antialias" "1"
 			}
 		}
-		
+
 		ControllerHintText
 		{
 			"1"
@@ -4097,6 +4098,18 @@ Scheme{Colors{
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
+			}
+		}
+		
+		"MMenuPlayListDesc"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"9"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
 		}
 	}
@@ -4142,6 +4155,46 @@ Scheme{Colors{
 				"1"
 				{
 					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		StreamBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 191 255 255"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "0 191 255 255"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "0 191 255 255"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 191 255 255"
 					"offset" "0 0"
 				}
 			}
@@ -4355,7 +4408,7 @@ Scheme{Colors{
 				}
 			}
 		}
-				
+		
 		MainMenuSubButtonBorder
 		{
 			"inset" "0 0 1 1"
@@ -4392,10 +4445,10 @@ Scheme{Colors{
 			"backgroundtype"		"2"
 			
 			"image"					"loadout_round_rect_selected"
-			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_height"		"24"
 			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
+			"draw_corner_width"		"11"
+			"draw_corner_height"	"11"
 		}
 		OutlinedDullGreyBox
 		{
@@ -4406,7 +4459,7 @@ Scheme{Colors{
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"
-			"draw_corner_height" 	"11"	
+			"draw_corner_height"	"11"
 		}
 		
 		TFThinLineBorder
@@ -4419,7 +4472,7 @@ Scheme{Colors{
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"	
+			"draw_corner_height"	"8"
 		}
 		TFFatLineBorderOpaque
 		{
@@ -4430,7 +4483,7 @@ Scheme{Colors{
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height"	"5"
 		}
 		TFFatLineBorder
 		{
@@ -4441,7 +4494,7 @@ Scheme{Colors{
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"3"
-			"draw_corner_height" 	"3"	
+			"draw_corner_height"	"3"
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -4452,7 +4505,7 @@ Scheme{Colors{
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height"	"5"
 		}
 		TFFatLineBorderRedBGOpaque_Store
 		{
@@ -4463,7 +4516,7 @@ Scheme{Colors{
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"
-			"draw_corner_height" 	"11"	
+			"draw_corner_height"	"11"
 		}
 		TFFatLineBorderRedBG
 		{
@@ -4474,7 +4527,18 @@ Scheme{Colors{
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"3"
-			"draw_corner_height" 	"3"	
+			"draw_corner_height"	"3"
+		}
+		TFFatLineBorderRedBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_red_more_opaque"
+			"src_corner_height"		"23"
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"
+			"draw_corner_height"	"5"
 		}
 		TFFatLineBorderBlueBG
 		{
@@ -4485,7 +4549,18 @@ Scheme{Colors{
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"3"
-			"draw_corner_height" 	"3"	
+			"draw_corner_height"	"3"
+		}
+		TFFatLineBorderBlueBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_blu_more_opaque"
+			"src_corner_height"		"23"
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"
+			"draw_corner_height"	"5"
 		}
 		TFFatLineBorderBlueBGOpaque
 		{
@@ -4496,7 +4571,7 @@ Scheme{Colors{
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"
-			"draw_corner_height"	"5"	
+			"draw_corner_height"	"5"
 		}
 		TFFatLineBorderClearBG
 		{
@@ -4507,7 +4582,7 @@ Scheme{Colors{
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"
-			"draw_corner_height"	"5"	
+			"draw_corner_height"	"5"
 		}
 		
 		ToolTipBorder
@@ -5934,6 +6009,32 @@ Scheme{Colors{
 			}
 		}
 		
+		MainMenuButtonGlow
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"178 83 22 255"
+			
+			"image"					"button_glow"
+			"src_corner_height"		"4"				// pixels inside the image
+			"src_corner_width"		"4"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+
+		MainMenuButtonGlow2
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"238 103 17 255"
+			
+			"image"					"button_glow"
+			"src_corner_height"		"4"				// pixels inside the image
+			"src_corner_width"		"4"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		
 		NotificationDefault
 		{
 			"bordertype"			"scalable_image"
@@ -6103,6 +6204,30 @@ Scheme{Colors{
 			"draw_corner_height" 	"4"	
 		}
 		
+		StoreHighlightedBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"featured_corner"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+
+		StoreHighlightedBackgroundBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"store/store_featured_item_bg01"
+			"src_corner_height"		"80"				// pixels inside the image
+			"src_corner_width"		"30"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		
 		StoreDiscountBorder
 		{
 			"bordertype"			"scalable_image"
@@ -6193,6 +6318,7 @@ Scheme{Colors{
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"8"	
 		}
+		
 		QuickplayBorder
 		{
 			"inset" "0 0 1 1"
@@ -6232,7 +6358,21 @@ Scheme{Colors{
 				}
 			}
 		}
-
+		
+		SortCategoryBorder
+		{
+			"inset" "0 0 1 1"
+	
+			Right
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "1 0"
+				}
+			}
+		}
+		
 		SteamWorkshopBorder
 		{
 			"inset" "0 0 1 1"
@@ -6387,6 +6527,54 @@ Scheme{Colors{
 			"src_corner_width"		"23"
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"7"	
+		}
+		
+		RedWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_red"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+
+		BlueWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_blue"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+		
+		InnerShadowBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"inner_shadow_border"
+			"src_corner_height"		"5"				// pixels inside the image
+			"src_corner_width"		"5"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+
+		InnerShadowBorderThin
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"inner_shadow_border"
+			"src_corner_height"		"5"				// pixels inside the image
+			"src_corner_width"		"5"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
 		}
 	}
 

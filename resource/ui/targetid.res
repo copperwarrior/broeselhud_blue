@@ -4,11 +4,11 @@
 	{
 		"ControlName"				"CTFImagePanel"
 		"fieldName"					"TargetIDBG"
-		"xpos"						"0"
-		"ypos"						"64"
+		"xpos"						"1"
+		"ypos"						"23"
 		"zpos"						"-1"
 		"wide"						"252"
-		"tall"						"50"
+		"tall"	 					"1"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -19,21 +19,21 @@
 		"teambg_2"					"../hud/objectives_timepanel_red_bg"
 		"teambg_3"					"../hud/objectives_timepanel_blue_bg"
 		
-		"src_corner_height"			"3"
-		"src_corner_width"			"3"
+		"src_corner_height"			"23"
+		"src_corner_width"			"23"
 		"draw_corner_width"			"0"
-		"draw_corner_height" 		"0"
+		"draw_corner_height"		"0"
 	}
 	
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"				"ScalableImagePanel"
 		"fieldName"					"TargetIDBG_Spec_Blue"
-		"xpos"						"0"
-		"ypos"						"32"
+		"xpos"						"1"
+		"ypos"						"23"
 		"zpos"						"-1"
 		"wide"						"252"
-		"tall"						"30"
+		"tall"						"1"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"0"
@@ -50,11 +50,11 @@
 	{
 		"ControlName"				"ScalableImagePanel"
 		"fieldName"					"TargetIDBG_Spec_Red"
-		"xpos"						"0"
-		"ypos"						"32"
+		"xpos"						"1"
+		"ypos"						"23"
 		"zpos"						"-1"
 		"wide"						"252"
-		"tall"						"30"
+		"tall"						"1"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"0"
@@ -111,7 +111,7 @@
 		"fieldName"					"TargetDataLabel"
 		"font"						"surface10"
 		"xpos"						"32"
-		"ypos"						"22"
+		"ypos"						"-1"
 		"zpos"						"1"
 		"wide"						"280"
 		"tall"						"14"
@@ -123,7 +123,7 @@
 		"textAlignment"				"Left"
 		"dulltext"					"0"
 		"brighttext"				"0"
-		"fgcolor_override"			"TargetID info"
+		"fgcolor_override"			"255 255 0 255"
 	}
 	
 	"SpectatorGUIHealth"
@@ -148,7 +148,7 @@
 		"ControlName"				"ImagePanel"
 		"fieldName"					"AmmoIcon"
 		"xpos"						"32"
-		"ypos"						"25" // "24" if the ammo icon is too low
+		"ypos"						"2" // "1" if the ammo icon is too low
 		"zpos"						"12"
 		"wide"						"8"
 		"tall"						"8"
@@ -163,7 +163,7 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"KillstreakIconAnchor"
 		"xpos"						"-1"
-		"ypos"						"25" // "24" if the killstreak icon is too low
+		"ypos"						"2" // "1" if the killstreak icon is too low
 		"wide"						"8"
 		"tall"						"8"
 		"visible"					"1"

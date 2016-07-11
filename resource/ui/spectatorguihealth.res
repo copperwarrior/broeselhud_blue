@@ -27,7 +27,7 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 95"
+		"fillcolor"				"0 0 0 128"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -55,7 +55,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"PlayerStatusHealthBonusImage"
-		"xpos"					"0"
+		"xpos"					"9999"
 		"ypos"					"4"
 		"zpos"					"3"
 		"wide"					"96"
@@ -64,6 +64,25 @@
 		"enabled"				"1"
 		"image"					"../hud/health_over_bg"
 		"scaleImage"			"1"
+	}
+	
+	"TargetIDbuffedHealthBG"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"TargetIDbuffedHealthBG"
+		"xpos"					"0"
+		"ypos"					"11"
+		"zpos"					"5"
+		"wide"					"24"
+		"tall"					"12"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"alpha"					"0"
+		"fillcolor"				"100 200 100 255"
+		"PaintBackgroundType"	"0"
 	}
 	
 	"PlayerStatusHealthValueTargetID"
@@ -89,7 +108,7 @@
 		"fieldName"				"PlayerStatusHealthValueTargetIDshadow"
 		"xpos"					"-26"
 		"ypos"					"8"
-		"zpos"					"7"
+		"zpos"					"6"
 		"wide"					"76"
 		"tall"					"19"
 		"visible"				"1"

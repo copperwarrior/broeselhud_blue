@@ -66,11 +66,11 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"PlayerStatusHealthBonusImage"
-		"xpos"						"75"
-		"ypos"						"83"
+		"xpos"						"73"
+		"ypos"						"81"
 		"zpos"						"-4"
-		"wide"						"60" // maybe "59" if the HP cross isn't centered inside the background cross
-		"tall"						"60"
+		"wide"						"64" // maybe "63" if the HP cross isn't centered inside the background cross
+		"tall"						"64"
 		"visible"					"0"
 		"enabled"					"1"
 		"image"						"../hud/health_over_bg"

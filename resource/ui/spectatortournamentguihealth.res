@@ -69,10 +69,10 @@
 		"textAlignment"	"center"
 	}
 	
-	"PlayerStatusHealthValueTargetID"
+	"TournamentSpectatorHealth"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"			"PlayerStatusHealthValueTargetID"
+		"fieldName"			"TournamentSpectatorHealth"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"6"
@@ -85,10 +85,10 @@
 		"font"				"surface15"
 		"fgcolor"			"255 255 255 255"
 	}
-	"PlayerStatusHealthValueSpecShadowT"
+	"TournamentSpectatorHealthShadow"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"			"PlayerStatusHealthValueSpecShadowT"
+		"fieldName"			"TournamentSpectatorHealthShadow"
 		"xpos"				"1"
 		"ypos"				"1"
 		"zpos"				"5"

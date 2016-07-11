@@ -117,15 +117,11 @@
 			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-
-			"deferred_description"	"1"
-			"deferred_icon"			"1"
 			
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget"	"0"
+				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
-				"inventory_image_type"	"1"
 			}
 
 			"New"
@@ -338,7 +334,7 @@
 		"fieldName"		"mouseoveritempanel"
 		"xpos"			"c-70"
 		"ypos"			"270"
-		"zpos"			"100"
+		"zpos"			"102"
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
